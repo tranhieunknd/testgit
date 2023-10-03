@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-03T12:05:53.823Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="YWNW9YfJNhuw4eKR8DSv" version="22.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-03T12:40:12.876Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="N2gQldWN0o11cBFiQw7y" version="22.0.2" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Regis Combo">
     <mxGraphModel dx="653" dy="395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -101,7 +101,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1tDEJoFfoG2jvra8WWks" name="Deduct">
-    <mxGraphModel dx="1773" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2440" dy="976" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -160,17 +160,16 @@
         <mxCell id="g2iib9to81qVl1VP5mM1-37" value="Status = T" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="351" y="502" width="126" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="g2iib9to81qVl1VP5mM1-43" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g2iib9to81qVl1VP5mM1-39" target="g2iib9to81qVl1VP5mM1-42">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="g2iib9to81qVl1VP5mM1-43" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g2iib9to81qVl1VP5mM1-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="527" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="g2iib9to81qVl1VP5mM1-47" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g2iib9to81qVl1VP5mM1-39" target="g2iib9to81qVl1VP5mM1-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="g2iib9to81qVl1VP5mM1-39" value="Status tru tien Grab = true" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="487" width="151" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="g2iib9to81qVl1VP5mM1-42" value="Set Status = C" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="497" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="g2iib9to81qVl1VP5mM1-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="g2iib9to81qVl1VP5mM1-46" target="g2iib9to81qVl1VP5mM1-52">
           <mxGeometry relative="1" as="geometry" />
@@ -254,6 +253,61 @@
         <mxCell id="AdzqccviTOZWXxdL-i4F-13" value="Save DB CIS_NOTIFICATION notify VBI" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="750" y="770" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="gNqYmXxyg4Do6fMZXgFY-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gNqYmXxyg4Do6fMZXgFY-1" target="gNqYmXxyg4Do6fMZXgFY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gNqYmXxyg4Do6fMZXgFY-4" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gNqYmXxyg4Do6fMZXgFY-3">
+          <mxGeometry x="-0.164" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNqYmXxyg4Do6fMZXgFY-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gNqYmXxyg4Do6fMZXgFY-1" target="gNqYmXxyg4Do6fMZXgFY-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gNqYmXxyg4Do6fMZXgFY-1" value="Check Amount DDA vs Fee Ins" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-101" y="487" width="151" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gNqYmXxyg4Do6fMZXgFY-2" value="Set Status = C" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-85.5" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gNqYmXxyg4Do6fMZXgFY-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.545;entryY=-0.062;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gNqYmXxyg4Do6fMZXgFY-1" target="g2iib9to81qVl1VP5mM1-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-25" y="700" />
+              <mxPoint x="659" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNqYmXxyg4Do6fMZXgFY-7" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gNqYmXxyg4Do6fMZXgFY-6">
+          <mxGeometry x="-0.9204" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNqYmXxyg4Do6fMZXgFY-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gNqYmXxyg4Do6fMZXgFY-10" target="g2iib9to81qVl1VP5mM1-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-225" y="720" />
+              <mxPoint x="417" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNqYmXxyg4Do6fMZXgFY-13" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gNqYmXxyg4Do6fMZXgFY-12">
+          <mxGeometry x="-0.8968" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNqYmXxyg4Do6fMZXgFY-10" value="Check Amount DDA - Fee Ins &amp;gt;= Amount Sav" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="487" width="151" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GRC1hEpnrSoDgFZ4JyOh" name="Trang-3">
+    <mxGraphModel dx="1371" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
